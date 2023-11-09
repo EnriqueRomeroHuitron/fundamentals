@@ -1,6 +1,25 @@
 .titulo {
-    color: gainsboro;
+    color: #5b60f1;
     width: 330px;
     height: 50px;
-    background-color: #1ABC9C;
+    background-color: lightblue;
+    /* font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3em;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px #000000; */
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon {
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
 }
