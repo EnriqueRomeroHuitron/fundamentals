@@ -38,17 +38,17 @@ function seleccionarMascotaJugador() {
     let sectionSeleccionarMascota = document.getElementById('seleccionar-mascota')
     sectionSeleccionarMascota.style.display = 'none'
 
-    let inputHipodoge = document.getElementById('hipodoge')
-    let inputCapipepo = document.getElementById('capipepo')
-    let inputRatigueya = document.getElementById('ratigueya')
+    let inputAguilotoache = document.getElementById('aguiloteache')
+    let inputJaguarzolote = document.getElementById('jaguarzolote')
+    let inputZorrolotuar = document.getElementById('zorrolotuar')
     let spanMascotaJugador = document.getElementById('mascota-jugador')
     
-    if (inputHipodoge.checked) {
-        spanMascotaJugador.innerHTML = 'Hipodoge'
-    } else if (inputCapipepo.checked) {
-        spanMascotaJugador.innerHTML = 'Capipepo'
-    } else if (inputRatigueya.checked) {
-        spanMascotaJugador.innerHTML = 'Ratigueya'
+    if (inputAguilotoache.checked) {
+        spanMascotaJugador.innerHTML = 'Aguilotoache'
+    } else if (inputJaguarzolote.checked) {
+        spanMascotaJugador.innerHTML = 'Jaguarzolote'
+    } else if (inputZorrolotuar.checked) {
+        spanMascotaJugador.innerHTML = 'Zorrolotuar'
     } else {
         alert('Selecciona una mascota')
     }
@@ -61,14 +61,14 @@ function seleccionarMascotaEnemigo() {
     let spanMascotaEnemigo = document.getElementById('mascota-enemigo')
 
     if (mascotaAleatoria == 1) {
-        // Hipodoge
-        spanMascotaEnemigo.innerHTML = 'Hipodoge'
+        // Aguilotoache
+        spanMascotaEnemigo.innerHTML = 'Aguilotoache'
     } else if (mascotaAleatoria == 2) {
-        // Capipepo
-        spanMascotaEnemigo.innerHTML = 'Capipepo'
-        // Ratigueya
+        // Jaguarzolote
+        spanMascotaEnemigo.innerHTML = 'Jaguarzolote'
+        // Zorrolotuar
     } else {
-        spanMascotaEnemigo.innerHTML = 'Ratigueya'
+        spanMascotaEnemigo.innerHTML = 'Zorrolotuar'
     }
 }
 

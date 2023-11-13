@@ -1,0 +1,87 @@
+body{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* background: #40BEE1; */
+
+    background-image: url('./images/fondo-alebrijes.jpg');
+    background-size: cover;
+    
+}
+
+h2{
+    color: #fafff5;
+}
+
+/* img {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  } */
+  
+
+.titulo {
+    color: #F6CB21;
+    /* width: 591px; */
+    /* height: 66px; */
+    /* background-color: lightblue; */
+    font-size: 3em;
+    /* color: #FFD700; */
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 1px #0000008f;    
+}
+
+#fondo-seleccionar-mascota{
+    background: #40bee1e0;
+    padding: 15px;
+}
+
+.tarjeta-de-alebrijemon {
+    width: 120px;
+    height: 43px;
+    /* background: aquamarine;
+    padding: 10px;
+    box-sizing: border-box; */
+    background-image: linear-gradient(to right, #7bdbab, #d11313, #ddd8d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* #boton-mascota {
+  background-color: #F6CB21;
+} */
+
+#boton-mascota {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+  }
+  
+ #boton-mascota:hover {background-color: #3e8e41}
+  
+  #boton-mascota:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  #seleccionar-mascota img:hover {
+    filter: brightness(90%);
+  }
+
+  input[type="radio"]:checked + label img {
+    border: 2px solid blue;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ALEBRIJÉMON!</title>
+    <script defer src="./js/alebrijemon.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <section id="seleccionar-mascota">
+        <h1 class="titulo"> ALEBRIJÉMON! 🔥💧🌱</h1>
+  
+        <div id="fondo-seleccionar-mascota">
+
+        
+        <h2>Elige a tu Alebrijémon: </h2>
+        
+        <!-- <img src="./images/aguiloteache.png" alt="Descripción de la imagen">
+        <label class="tarjeta-de-alebrijemon" for="aguiloteache"></label>
+        <input type="radio" name="mascota" id="aguiloteache" /> -->
+
+        <input type="radio" name="aguiloteache" id="aguiloteache" style="display: none;" />
+        <label for="aguiloteache">
+          <img src="./images/aguiloteache.png" alt="aguiloteache" style="cursor: pointer; border-radius: 2px; padding: 2px;" />
+        </label>
+        
+        <input type="radio" name="jaguarzolote" id="jaguarzolote" style="display: none;" />
+        <label for="jaguarzolote">
+          <img src="./images/jaguarzolote.png" alt="jaguarzolote" style="cursor: pointer; border-radius: 2px; padding: 2px;" />
+        </label>        
+
+        <input type="radio" name="zorrolotuar" id="zorrolotuar" style="display: none;" />
+        <label for="zorrolotuar">
+          <img src="./images/zorrolotuar.png" alt="zorrolotuar" style="cursor: pointer; border-radius: 2px; padding: 2px;" />
+        </label>    
+
+        <div>
+          <button id="boton-mascota">Seleccionar</button>
+        </div>
+        
+      </div>
+
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h1 class="titulo"> ALEBRIJÉMON! 🔥💧🌱</h1>
+        <h2>Elige tu ataque: </h2>
+        <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+        <p>
+            <button id="boton-fuego">Fuego 🔥</button>
+            <button id="boton-agua">Agua 💧</button>
+            <button id="boton-tierra">Tierra 🌱</button>
+        </p>
+    </section>
+
+    <section id="mensajes">
+       
+    </section>
+
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+
+  
+  </body>
+</html>
