@@ -44,18 +44,25 @@
           <button id="boton-tierra" class="boton-de-ataque">Tierra 🌱</button>
         </div>
 
-        <div>
-          <section id="mensajes">  
-          </section>
-      
+        <div id="mensajes">  
+          <p id="resultado">Mucha suerte</p>
+
           <section id="reiniciar">
-              <button id="boton-reiniciar">Reiniciar</button>
+            <button id="boton-reiniciar">Reiniciar</button>
           </section>
         </div>
-
-        <div>
-          <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
-          <p>La mascota <span id="mascota-enemigo"></span> de tu enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>  
+    
+        <div class="ataques">
+          <div>
+              <p id="mascota-jugador"></p>
+              <p id="vidas-jugador">3</p>
+              <div id="ataques-del-jugador"></div>
+          </div>
+          <div>
+              <p id="mascota-enemigo"></p>
+              <p id="vidas-enemigo">3</p>
+              <div id="ataques-del-enemigo"></div>
+          </div>
         </div> 
     </section>  
   </body>
