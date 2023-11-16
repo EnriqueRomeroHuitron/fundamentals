@@ -60,6 +60,10 @@ input {
     display: none;
 }
 
+input:checked + label {
+    background-color: #5272F2;
+}
+
 #seleccionar-ataque {
     display: flex;
     flex-direction: column;
@@ -115,6 +119,4 @@ input {
     .tarjetas, .tarjetas-ataques {
         flex-direction: column;
     }
-
-
 }
